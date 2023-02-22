@@ -10,9 +10,26 @@
 <body>
     <div class="subscribe">
         <h3>Email Newsletter</h3>
-        <p>Get daily / weekly / monthly updates about us!</p>
-        <input type="email" name="mail" id="email" placeholder="Your Email">
-       
+        <p>Get updates about us!</p>
+        <form action="">
+            <div class="frequency">
+                <span>How often would you like to hear from us?</span>
+                <br>
+               <input type="radio" id="daily" name="email_frequency" value="DAILY">
+               <label for="daily">Daily</label><br>
+               <input type="radio" id="weekly" name="email_frequency" value="WEEKLY">
+               <label for="weekly">Weekly</label><br>
+               <input type="radio" id="monthly" name="email_frequency" value="MONTHLY">
+               <label for="monthly">Monthly</label>
+            </div>
+            <div class="email_ad">
+                <label for="email">Enter your email:</label>
+                <input type="email" name="mail" id="email" placeholder="Your Email">   
+            </div>
+            <div class="submit_btn">
+                <input type="submit" value="SUBSCRIBE">
+            </div>
+        </form>
     </div>
 </body>
 </html>
