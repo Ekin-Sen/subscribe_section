@@ -8,14 +8,13 @@
     <title>SUBSCRIBE</title>
 </head>
 <body>
-    <div class="subscribe">
-        <h3>Email Newsletter</h3>
-        <p>Get updates about us!</p>
+    <div class="card">
+        <h2>Email Newsletter</h2>
         <form action="">
             <div class="frequency">
-                <span>How often would you like to hear from us?</span>
+                <span class="info">How often would you like to hear from us?</span>
                 <div class="radio_btn">
-                    <input type="radio" id="daily" name="email_frequency" value="DAILY">
+                    <input class="rd" type="radio" id="daily" name="email_frequency" value="DAILY">
                     <label for="daily">Daily</label><br>
                     <input type="radio" id="weekly" name="email_frequency" value="WEEKLY">
                     <label for="weekly">Weekly</label><br>
@@ -23,9 +22,12 @@
                     <label for="monthly">Monthly</label>  
                 </div> 
             </div>
-            <div class="email_sub">
-                <input type="email" name="mail" id="email" placeholder="Your Email">
-                <input type="submit" value="SUBSCRIBE">
+            <div>
+                <input class="email" type="email" name="mail" id="email" placeholder="Your Email">
+                <div class="buttons">
+                 <input class="btn" type="submit" value="SUBSCRIBE">
+                <input class="btn" type="reset" value="RESET">   
+                </div>
             </div>
         </form>
     </div>
