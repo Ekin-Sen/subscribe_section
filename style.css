@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(
+        to right,
+        #8a2387,
+        #e94057,
+        #d05e17
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.subscribe {
+    width: 400px;
+    height: 180px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #e06979;
+}
+
+.radio_btn {
+    display: flex;
+}
