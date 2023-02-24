@@ -35,3 +35,26 @@ h2, span {
     margin-bottom: 20px;
     cursor: pointer;
 }
+
+.email {
+    width: 75%;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-inline-start: 10px;
+}
+
+input[type="radio"] {
+    background-color: #fff;
+    margin: 0;
+    margin-right: 5px;
+    font: inherit;
+    width: 1.15em;
+    height: 1.15em;
+  }
+
+label {
+    margin-right: 10px;
+    color: #f5f5f5;
+}
