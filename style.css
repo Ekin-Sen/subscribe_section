@@ -52,13 +52,22 @@ h2, span {
 }
 
 input[type="radio"] {
+    appearance: none;
+    border-radius: 30%;
+    border: 2px solid #8a2387;
+    transition: all  0.2s linear;
     background-color: #fff;
     margin: 0;
     margin-right: 5px;
     font: inherit;
     width: 1.15em;
     height: 1.15em;
+    cursor: pointer;
   }
+
+input:checked {
+    border: 9px solid #8a2387;
+}
 
 label {
     margin-right: 10px;
