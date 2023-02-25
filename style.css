@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: linear-gradient(
         to right,
@@ -33,7 +37,6 @@ h2, span {
     display: flex;
     margin-top: 10px;
     margin-bottom: 20px;
-    cursor: pointer;
 }
 
 .email {
@@ -43,6 +46,9 @@ h2, span {
     border-radius: 5px;
     font-size: 15px;
     padding-inline-start: 10px;
+    color: #8a2387;
+    font: bolder;
+    caret-color: #8a2387;
 }
 
 input[type="radio"] {
