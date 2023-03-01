@@ -112,4 +112,11 @@ button::before {
     z-index: -1;
 }
 
+button:hover::before {
+    width: 120px;
+}
 
+button:hover {
+    color: #ffffff;
+    transition: 1.5s ease;
+}
